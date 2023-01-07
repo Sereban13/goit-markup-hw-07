@@ -1,0 +1,17 @@
+// body
+body {
+    background-color: $white;
+    color: $primary-textColor;
+    font-family: 'Roboto', sans-serif;
+}
+
+.section {
+    padding: 94px 0; 
+}
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
