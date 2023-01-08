@@ -2,7 +2,7 @@
 .team-section {
     background-color: $secondaryBackground;
 
-    .team-section__title {
+    &__title {
         margin-bottom: 50px;
         font-size: 36px;
         line-height: 1.16;
@@ -13,12 +13,14 @@
 }
 
 .team {
+    @extend %list;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
 .team-member {
+    @extend %list;
     max-width: 270px;
     height: auto;
     background: $white;
@@ -28,10 +30,10 @@
                 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
 
-    .team-member__foto{
+    &__foto{
         margin-bottom: 30px;
     }
-    .team-member__name {
+    &__name {
         margin-bottom: 10px;
         font-weight: 500;
         font-size: 16px;
@@ -40,7 +42,7 @@
         letter-spacing: 0.03em;
         color: $title-textColor;
     }
-    .team-member__position {
+    &__position {
         margin-bottom: 16px;
         font-size: 16px;
         line-height: 1.18;

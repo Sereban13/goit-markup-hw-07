@@ -1,12 +1,13 @@
 // work section
 .work {
+    @extend %list;
     display: flex;
     justify-content: space-between;
 
-    .work__thumb {
+    &__thumb {
         position: relative;
     }
-    .work__subtitle {
+    &__subtitle {
         position: absolute;
         bottom:0;
         margin: 0;

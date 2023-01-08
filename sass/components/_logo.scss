@@ -1,5 +1,6 @@
 // logo
 .logo {
+    @extend %link;
     font-family: 'Raleway';
     font-style: normal;
     font-size: 26px;
@@ -7,7 +8,7 @@
     letter-spacing: 0.03em;
     color: $title-textColor;
 
-    .logo__part {
+    &__part {
         color: $accentColor;
     }
 }

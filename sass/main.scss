@@ -1,6 +1,9 @@
 
-@import 'base/colors';
+@import 'utils/variables';
 @import 'base/reset';
+
+@import 'utils/placeholders';
+@import 'utils/mixin';
 
 @import 'components/body';
 @import 'components/header';
@@ -8,7 +11,7 @@
 @import 'components/nav';
 @import 'components/contacts-header';
 @import 'components/hero';
-@import 'components/button';
+@import 'components/buttons';
 @import 'components/features-section';
 @import 'components/work-section';
 @import 'components/team-section';
